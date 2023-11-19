@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     height: 15vh;
-    background-color: #8bc34a;
+    background-color: #33ad3a;
 }
 
 .navbar-logo {
@@ -24,4 +24,5 @@
     margin-top: 4vh;
     cursor: pointer;
     text-decoration: none;
+    color: #ffff;
 }
