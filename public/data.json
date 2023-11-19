@@ -1,0 +1,46 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "name": "Rosa Roja",
+            "type": "Rosas",
+            "price": 15.000,
+            "img": "products/rosaroja.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Rosa Blanca",
+            "type": "Rosas",
+            "price": 15.000,
+            "img": "products/rosablanca"
+        },
+        {
+            "id": 3,
+            "name": "Girasol",
+            "type": "Girasoles",
+            "price": 15.000,
+            "img": "products/girasol.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Lirio",
+            "type": "Lirios",
+            "price": 15.000,
+            "img": "products/lirio.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Orquidea",
+            "type": "Orquideas",
+            "price": 30.000,
+            "img": "products/orquidea.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Tulipan",
+            "type": "Tulipanes",
+            "price": 20.000,
+            "img": "products/tulipan.jpg"
+        }
+    ]
+}
