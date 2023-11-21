@@ -1,5 +1,6 @@
 .weather {
-    background-color: #f5f5f5;
+    text-align: center;
+    background-color: #8db6a6;
     border-radius: 8px;
     padding: 20px;
     margin: 20px 0;
@@ -13,5 +14,9 @@
   
 .weather p {
     font-size: 18px;
+    margin-bottom: 8px;
+}
+.weather p2 {
+    font-size: 38px;
     margin-bottom: 8px;
 }
