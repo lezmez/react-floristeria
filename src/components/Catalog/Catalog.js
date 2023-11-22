@@ -1,61 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Product from '../Product/Product';
+import './Catalog.css';
 
 const Catalog = () => {
-  const products = [
-    {
-        id: 1,
-        image: 'rosaroja.jpg',
-        description: 'Red Rose',
-        price: 15.999,
-    },
-    {
-        id: 2,
-        image: 'rosablanca.jpg',
-        description: 'White Rose',
-        price: 15.999,
-    },
-    {
-        id: 3,
-        image: 'girasol.jpg',
-        description: 'Sunflower',
-        price: 17.999,
-    },
-    {
-        id: 4,
-        image: 'tulipan.jpg',
-        description: 'Tulip',
-        price: 20.999,
-    },
-    {
-        id: 5,
-        image: 'lirio.jpg',
-        description: 'Lily',
-        price: 18.999,
-    },
-    {
-        id: 6,
-        image: 'orquidea.jpg',
-        description: 'Orchid',
-        price: 30.999,
-    },
-  ];
+  const [products] = useState([
+    { id: 1, name: 'Red Rose', category: 'roses', price: 19.999, image: 'rosaroja.jpg' },
+    { id: 2, name: 'Red White', category: 'roses', price: 19.999, image: 'rosablanca.jpg' },
+    { id: 3, name: 'Sunflower', category: 'sunflowers', price: 15.999, image: 'girasol.jpg' },
+    { id: 4, name: 'Tulip', category: 'tulips', price: 26.999, image: 'tulipan.jpg' },
+    { id: 5, name: 'Orchid', category: 'orchids', price: 39.999, image: 'orquidea.jpg' },
+    { id: 6, name: 'Lily', category: 'lilies', price: 30.999, image: 'lirio.jpg' },
+  ]);
 
-  const addToCart = (productId) => {
-    console.log(`Product ${productId} added to cart`);
+  const [filteredProducts, setFilteredProducts] = useState(products);
+
+  const handleFilter = (category) => {
+    if (category === 'todos') {
+      setFilteredProducts(products);
+    } else {
+      const filtered = products.filter((product) => product.category === category);
+      setFilteredProducts(filtered);
+    }
   };
 
   return (
-    <div className="catalog">
-      {products.map((product) => (
-        <Product
-          key={product.id}
-          image={product.image}
-          description={product.description}
-          price={product.price}
-          addToCart={() => addToCart(product.id)}
-        />
-      ))}
+    <div>
+      <h2>Catalog</h2>
+      <div className="filter-buttons">
+        <button onClick={() => handleFilter('todos')}>All</button>
+        <button onClick={() => handleFilter('roses')}>Roses</button>
+        <button onClick={() => handleFilter('sunflowers')}>Sunflowers</button>
+        <button onClick={() => handleFilter('tulips')}>Tulips</button>
+        <button onClick={() => handleFilter('orchids')}>Orchids</button>
+        <button onClick={() => handleFilter('lilies')}>Lilies</button>
+      </div>
+
+      <div className="products">
+        {filteredProducts.map((product) => (
+          <Product key={product.id} product={product} />
+        ))}
+      </div>
     </div>
   );
 };

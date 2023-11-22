@@ -33,10 +33,10 @@ const Weather = () => {
 
   return (
     <div className="weather">
-      <h2>Weather in {CITY}</h2>
+      <h2>Weather in 📌{CITY} 🗺️</h2>
       <p>Temperature: {weatherData.main.temp}°C</p>
       <p>Weather: {weatherData.weather[0].main}</p>
-      <p2>☀️🌤️⛅🌦️🌧️⛈️🌩️🌨️🌪️🌕🌘🌙</p2>
+      <p2>☀️🌤️🌦️🌧️⛈️🌩️🌨️🌪️🌘🌙</p2>
     </div>
   );
 };

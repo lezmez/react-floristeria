@@ -1,20 +1,23 @@
 .weather {
     text-align: center;
-    background-color: #8db6a6;
-    border-radius: 8px;
+    background-color: #a3bdbe;
+    border-radius: 20px;
     padding: 20px;
     margin: 20px 0;
+    max-width: 550px;
+    margin: 0 auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
   
 .weather h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: #ffff;
 }
   
 .weather p {
-    font-size: 18px;
-    margin-bottom: 8px;
+    font-size: 20px;
+    margin-bottom: 19px;
 }
 .weather p2 {
     font-size: 38px;
