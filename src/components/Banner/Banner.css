@@ -2,7 +2,6 @@
     background-size: cover;
     background-position: center;
     height: 120vh;
-
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
 
@@ -42,12 +41,4 @@
     color: white;
     opacity: 0.7;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-}
-.banner p3 {
-    position: absolute;
-    top: 145%;
-    left: 10%;
-    
-    
-
 }
