@@ -1,0 +1,53 @@
+.registration {
+    width: 300px;
+    margin: 10px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+  
+.form-group {
+    margin-bottom: 15px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+  
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+}
+  
+button:hover {
+    background-color: #45a049;
+}
+  
+button:focus {
+    outline: none;
+}
+  
+.user-created-message {
+    background-color: #4CAF50; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    margin-top: 20px; 
+    border-radius: 5px; 
+    color: #fff;
+}  

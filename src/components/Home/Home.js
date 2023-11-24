@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import Catalog from "../Catalog/Catalog";
 import Weather from "../Weather/Weather";
 import Footer from "../Footer/Footer";
+import Registration from "../Registration/Registration";
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
         <Navbar />
         <Banner />
         <Catalog />
+        <Registration />
         <Weather />
         <Footer />
     </>
