@@ -4,7 +4,7 @@ I'd like to invite you to explore my webpage where you can find an amazing varie
 * https://github.com/lezmez/react-floristeria.git
 
 ![Alt text](image.png)
-![Alt text](image-4.png)
+![Alt text](image-1.png)
 ![Alt text](image-2.png)
 ![Alt text](image-3.png)
 
@@ -45,8 +45,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
