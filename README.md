@@ -4,7 +4,7 @@ I'd like to invite you to explore my webpage where you can find an amazing varie
 * https://github.com/lezmez/react-floristeria.git
 
 ![Alt text](image.png)
-![Alt text](image-1.png)
+![Alt text](image-4.png)
 ![Alt text](image-2.png)
 ![Alt text](image-3.png)
 
@@ -31,7 +31,8 @@ The following technologies and tools were used in creating the site:
 
 This site was created by:
 
-* **Cristian Lesmes**
+* **Cristian David Lesmes**
+* **Jeffer Fabian Pinzon**
 
 ## Available Scripts
 
