@@ -6,7 +6,7 @@ const Weather = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState(null);
   const API_KEY = '488af23542bdfd55774b77748c11ceee';
-  const DEFAULT_CITY = 'San gil, Santander, Colombia';
+  const DEFAULT_CITY = 'San Gil, Santander, Colombia';
 
   const fetchWeatherData = async (location) => {
     try {

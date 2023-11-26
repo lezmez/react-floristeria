@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 import Product from '../Product/Product';
 import './Catalog.css';
+import { rosaroja, rosablanca, girasol, lirio, orquidea, tulipan } from '../images/images.js';
+
 
 const Catalog = () => {
   const [products] = useState([
-    { id: 1, name: 'Red Rose', category: 'roses', price: 19.999, image: 'rosaroja.jpg' },
-    { id: 2, name: 'Red White', category: 'roses', price: 19.999, image: 'rosablanca.jpg' },
-    { id: 3, name: 'Sunflower', category: 'sunflowers', price: 15.999, image: 'girasol.jpg' },
-    { id: 4, name: 'Tulip', category: 'tulips', price: 26.999, image: 'tulipan.jpg' },
-    { id: 5, name: 'Orchid', category: 'orchids', price: 39.999, image: 'orquidea.jpg' },
-    { id: 6, name: 'Lily', category: 'lilies', price: 30.999, image: 'lirio.jpg' },
+    { id: 1, name: 'Red Rose', category: 'roses', price: 19.999, image: rosaroja },
+    { id: 2, name: 'Red White', category: 'roses', price: 19.999, image: rosablanca },
+    { id: 3, name: 'Sunflower', category: 'sunflowers', price: 15.999, image: girasol },
+    { id: 4, name: 'Tulip', category: 'tulips', price: 26.999, image: tulipan },
+    { id: 5, name: 'Orchid', category: 'orchids', price: 39.999, image: orquidea },
+    { id: 6, name: 'Lily', category: 'lilies', price: 30.999, image: lirio },
   ]);
 
   const [filteredProducts, setFilteredProducts] = useState(products);
