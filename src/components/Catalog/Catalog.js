@@ -7,7 +7,7 @@ import { rosaroja, rosablanca, girasol, lirio, orquidea, tulipan } from '../imag
 const Catalog = () => {
   const [products] = useState([
     { id: 1, name: 'Red Rose', category: 'roses', price: 19.999, image: rosaroja },
-    { id: 2, name: 'Red White', category: 'roses', price: 19.999, image: rosablanca },
+    { id: 2, name: 'White Rose', category: 'roses', price: 19.999, image: rosablanca },
     { id: 3, name: 'Sunflower', category: 'sunflowers', price: 15.999, image: girasol },
     { id: 4, name: 'Tulip', category: 'tulips', price: 26.999, image: tulipan },
     { id: 5, name: 'Orchid', category: 'orchids', price: 39.999, image: orquidea },
